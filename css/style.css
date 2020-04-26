@@ -10,12 +10,15 @@ body{
   width:80%;
   margin:auto;
   overflow:hidden;
-  text-align: center;
 }
 
 ul{
   margin:0;
   padding:0;
+}
+
+li{
+  list-style: none;
 }
 
 .button_1{
@@ -120,6 +123,7 @@ header a:hover{
 
 #newsletter h1{
   font-size: 20px;
+  text-align:center;
 }
 
 #newsletter form {
@@ -182,11 +186,29 @@ ul#services li{
 }
 
 footer{
-  padding:10px;
-  margin-top:20px;
+  padding-top:30px;
+  min-height:70px;
   color:#ffffff;
-  background-color:#e8491d;
-  text-align: center;
+  background-color:#35424a;
+}
+
+footer h1 {
+  float:left
+}
+
+footer .highlight {
+  color:#e8491d;
+  font-weight:bold;
+}
+
+.footer-list {
+  float:right;
+}
+
+.footer-list li {
+  padding-bottom:20px;
+  font-size:10px;
+  font-weight:bold;
 }
 
 /* Media Queries */
