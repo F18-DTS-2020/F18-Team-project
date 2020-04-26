@@ -41,7 +41,7 @@ h2:after{
 }
 h3{
   font-size: 110%;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 /* Global */
@@ -205,6 +205,16 @@ height: 100vh;
 #boxes .box img{
   width:150px;
   margin:auto;
+}
+
+.fas{
+	margin-right: 5px;
+	font-size: 125%;
+}
+
+.fab{
+	margin-right: 5px;
+	font-size: 125%;
 }
 
 .boxx{
